@@ -22,7 +22,7 @@ module.exports = {
 ```
 
 
-[heck stacks-overflow] (https://stackoverflow.com/questions/69227566/consider-using-the-jsdom-test-environment)
+[check stacks-overflow] (https://stackoverflow.com/questions/69227566/consider-using-the-jsdom-test-environment)
 
 
 after all we should get this line of error!
@@ -43,20 +43,11 @@ u should install this package:
 ```
 $ npm install -D jest-environment-jsdom  
 ```
-```
-$ npm i -D eslint @typescript-eslint/eslint-plugin
-```
 
 
+## TDD (Test Driven Development)
+that's have a cycle:
+Write failing test => Make the test pass => Refactor
 
-
-npx eslint --init
-    |
-    ---- to check syntax and find problem
-    ---- javascript modules (import/export)
-    ---- react
-    ---- use ts yes
-    ---- browser
-    ---- javascript
-    ---- yes
-    ---- npm
+### Live testing
+Please use this webpage: [real time testing] (https://testing-playground.com)
