@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Counter from "@/components/Counter";
+import Calculator from "@/components/Calculator";
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main>
-      {/*<Counter description={'MyCounter'} defaultCount={0}/>*/}
-      <Counter/>
+      {/*<Calculator description={'MyCounter'} defaultCount={0}/>*/}
+      <Calculator/>
     </main>
   )
 }
